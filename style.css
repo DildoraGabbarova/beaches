@@ -1,0 +1,562 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    box-shadow: -1px 0 4px rgba(14, 55, 63, 0.15);
+    font-size: large;
+    font-weight: 400;
+    position: fixed;
+}
+.container{
+    max-width: 1050px;
+    height: 100%;
+    margin: 0 auto;
+    
+}
+.navbar .main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .travel{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.navbar .menu{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.menu ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+}
+.first-section{
+    width: 100%;
+    height: 100vh;
+    background: url(https://travels-site.netlify.app/assets/img/home1.jpg);
+    background-size: 100% 100%;
+}
+.first-section .main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 100px 0;
+}
+.main .explore{
+    width: 50%;
+    height: 100%;
+    color: white;
+
+}
+.explore :nth-child(1){
+    font-size:x-large ;
+}
+span{ 
+    font-weight: bold;
+}
+.explore :nth-child(2){
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.explore button{
+    padding: 12px 20px;
+    background-color: rgb(16, 46, 67);
+    border: none;
+    color:white ;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+.explore .icons{
+    width: 100px;
+    height: 50px;
+    
+}
+/* .icons img{
+    width: 30%;
+    margin: 0 0;
+} */
+
+.main .bestplace{
+    width: 300px;
+    height: 150px;
+    background-color: rgb(16, 46, 67);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 390px;
+    margin-left: 200px;
+    padding: 10px 20px;
+
+}
+.bestplace .one{
+    width: 50%;
+    height: 100%;
+    font-weight: 500;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.bestplace .two{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.two .transform1{
+    width: 100%;
+    transition: 1s;
+}
+
+.two .transform1:hover {
+    width: 100%;
+    transform:scale3d(1.1, 1.1, 1.1);
+    transition: 1s;
+} 
+.second-section{
+    width: 100%;
+    height: 100vh;
+}
+.second-section .main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.second-section .main .textbox{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.textbox :nth-child(1){
+    color: rgb(16, 46, 67);
+    font-size: xx-large;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.textbox :nth-child(2){
+    color: rgb(125, 123, 123);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.textbox .text{
+    color: white;
+    background-color: rgb(16, 46, 67);
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 30px;
+}
+.second-section .main .imgbox{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.imgbox .imgone{
+    width: 200px;
+    height: 400px;
+    overflow: hidden;
+    transition: 5s;
+}
+.imgone .oneimg{
+    width: 200px;
+    height: 400px;
+    overflow: hidden;
+    transition: 2s;
+}
+.imgone .oneimg:hover {
+    width: 100%;
+    transform:scale3d(1.4, 1.4, 1.4);
+    transition: 2s;
+}
+.imgbox .imgtwo{
+    width: 250px;
+    height: 450px;
+    overflow: hidden;
+    transition: 2s;
+}
+.imgtwo img {
+    width: 100%;
+    height: 100%;
+    
+}
+.imgtwo img:hover {
+    width: 100%;
+    height: 100%;
+    transform:scale3d(1.4, 1.4, 1.4);
+    transition: 2s;
+}
+.third-section{
+    width: 100%;
+    height: 100vh;
+}
+.third-section .main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.third-section .main .bigtitle{
+    color: rgb(16, 46, 67);
+    font-size: xx-large;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+.third-section .main .threeimgs{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.threeimgs .div{
+    width: 250px;
+    height: 350px;
+    color: white;
+    background: url(https://travels-site.netlify.app/assets/img/discover4.jpg);
+    background-size: 100% 100%;
+    padding-top:240px ;
+    padding-left: 20px;
+    overflow: hidden;
+    transition: 2s;
+}
+.threeimgs .div:hover {
+    width: 250px;
+    transform: scale3d(1.1, 1.1, 1.1);
+    transition: 2s;      
+}
+.threeimgs .div .title{
+    color: white;
+    text-align: start;
+    font-weight: 500;
+    font-size:x-large;
+}
+
+.threeimgs .div2{
+    width: 250px;
+    height: 400px;
+    color: white;
+    background: url(https://travels-site.netlify.app/assets/img/discover1.jpg);
+    background-size: 100% 100%;
+    padding-top: 300px ;
+    padding-left: 20px;
+    overflow: hidden;
+    transition: 2s;
+    
+}
+
+.threeimgs .div2:hover {
+    width: 250px;
+    transform: scale3d(1.1, 1.1, 1.1);
+    transition: 2s;      
+}
+.threeimgs .div2 .title{
+    color: white;
+    text-align: start;
+    font-weight: 500;
+    font-size:x-large;
+
+}
+.threeimgs .div3{
+    width: 250px;
+    height: 350px;
+    text-align: start;
+    color: white;
+    background: url(https://travels-site.netlify.app/assets/img/discover2.jpg);
+    background-size: 100% 100%;
+    padding-top: 240px ;
+    padding-left: 20px;
+    overflow: hidden;
+    transition: 2s;
+    
+}
+
+.threeimgs .div3:hover {
+    width: 250px;
+    transform: scale3d(1.1, 1.1, 1.1);
+    transition: 2s;      
+}
+.threeimgs .div3 .title{
+    color: white;
+    text-align: start;
+    font-weight: 500;
+    font-size:x-large;
+
+}
+.fourth-section{
+    width: 100%;
+    height: 100vh;
+}
+.fourth-section .main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fourth-section .main .textdiv{
+    width: 400px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fourth-section .main .title{
+    color: rgb(16, 46, 67);
+    font-size: xx-large;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+.fourth-section .main .textdiv .divone{
+    width: 30%;
+    height: 100%;
+    color: rgb(16, 46, 67);
+}
+.divone :nth-child(1){
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    
+}
+.fourth-section .main .imgdiv{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgdiv .firstdiv{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    transition: 2s;
+}
+.firstdiv img{
+    width: 100%;
+    height: 100%;
+}
+.firstdiv img:hover{
+    width: 100%;
+    transform: scale3d(1.2, 1.2, 1.2);
+    transition: 2s;
+    
+}
+.imgdiv .seconddiv{
+    width: 250px;
+    height: 450px;
+    overflow: hidden;
+    transition: 2s;
+}
+.seconddiv .s{
+    width: 100%;
+    height: 100%;
+}
+.seconddiv .s:hover {
+    width: 100%;
+    transform: scale3d(1.2, 1.2, 1.2);
+    transition: 2s;
+}
+.fifth-section{
+    width: 100%;
+    height: 100vh;
+}
+.fifth-section .main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.fifth-section .main .title{
+    color: rgb(16, 46, 67);
+    font-size: xx-large;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+.fifth-section .main .middle{
+    color: rgb(125, 123, 123);
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.fifth-section .main .video{
+    width: 700px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.video .show{
+    width: 100%;
+    height: 100%;
+}
+.main .video .btn{
+    padding: 2.0px 40px;
+    color: white;
+    background-color: rgb(16, 46, 67);
+}
+.sixth-section{
+    width: 100%;
+    height: 100vh;
+}
+.sixth-section .main{
+    width: 100%;
+    height: 100%;
+}
+.sixth-section .main .title {
+    
+    color: rgb(16, 46, 67);
+    font-size: xx-large;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 30px;
+}   
+.sixth-section .main .divwrap{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 200px;
+}
+.divwrap .wrap{
+    width: 180px;
+    height: 250px;
+    overflow: hidden;
+    transition: 2s;
+    color: white;
+   
+
+}
+
+.divwrap .wrap .image1{
+    width: 180px;
+    height: 250px;
+    background: url(https://travels-site.netlify.app/assets/img/place1.jpg); 
+    background-size: 100% 100%;
+   
+}
+.divwrap .wrap .image1:hover {
+    width: 180px;
+    height: 250px;
+    transform: scale3d(1.2, 1.2, 1.2);
+    transition: 2s;
+}
+.divwrap .wrap .image2{
+    width: 180px;
+    height: 250px;
+    background: url(https://travels-site.netlify.app/assets/img/place2.jpg); 
+    background-size: 100% 100%;
+   
+}
+.divwrap .wrap .image2:hover {
+    width: 180px;
+    height: 250px;
+    transform: scale3d(1.2, 1.2, 1.2);
+    transition: 2s;
+}
+.divwrap .wrap .image3{
+    width: 180px;
+    height: 250px;
+    background: url(https://travels-site.netlify.app/assets/img/place3.jpg); 
+    background-size: 100% 100%;
+   
+}
+.divwrap .wrap .image3:hover {
+    width: 180px;
+    height: 250px;
+    transform: scale3d(1.2, 1.2, 1.2);
+    transition: 2s;
+}
+.divwrap .wrap .image4{
+    width: 180px;
+    height: 250px;
+    background: url(https://travels-site.netlify.app/assets/img/place4.jpg); 
+    background-size: 100% 100%;
+   
+}
+
+
+.divwrap .wrap .image4:hover {
+    width: 180px;
+    height: 250px;
+    transform: scale3d(1.2, 1.2, 1.2);
+    transition: 2s;
+}
+.divwrap .wrap .image5{
+    width: 180px;
+    height: 250px;
+    background: url(https://travels-site.netlify.app/assets/img/place5.jpg); 
+    background-size: 100% 100%;
+   
+}
+
+
+.divwrap .wrap .image5:hover {
+    width: 180px;
+    height: 250px;
+    transform: scale3d(1.2, 1.2, 1.2);
+    transition: 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
